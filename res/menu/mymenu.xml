@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<group android:id="@+id/group1" android:menuCategory="container" android:visible="true" android:enabled="true" android:checkableBehavior="single">
+    
+        <item android:id="@+id/item1" android:visible="true" android:checkable="true" android:title="1" android:checked="true" android:enabled="true">
+        </item>
+        
+    	<item android:id="@+id/item2" android:visible="true" android:checkable="true" android:title="2"
+         	android:checked="false" android:enabled="true">        
+    	</item>  
+    	 
+    	<item android:id="@+id/item3" android:visible="true" android:checkable="true" android:title="3"
+         	android:checked="false" android:enabled="true">        
+    	</item>   
+    		
+    </group> 
+    
+</menu>
